@@ -238,8 +238,8 @@ app.get("/demo", async (req, resp) => {
 });
 
 const razorpay = new Razorpay({
-  key_id: process.env.RAZORPAY_KEY_ID,
-  key_secret:process.env.RAZORPAY_KEY_PASSWORD ,
+   key_id: "rzp_live_UeiEPxqvCQonX9",
+  key_secret: "iIuNO1KHpmRAoAxX8CWvtcwD",
 });
 
 app.post("/razorpay/:currency/:amount", async (req, resp) => {
